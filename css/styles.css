@@ -54,7 +54,7 @@ p {
     background-color: rgb(37, 37, 37);
 }
 .pink-section{
-    background-color: #e73c7e;
+    background: linear-gradient(rgb(37, 37, 37), #e73c7e);
 }
 
 
