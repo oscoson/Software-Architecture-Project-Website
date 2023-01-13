@@ -1,0 +1,182 @@
+
+/*Universal Styles*/
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #e7e7e7;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+p {
+    color: #e7e7e7;
+}
+
+/*Headings & Titles*/
+
+.big-heading {
+    color: rgb(37, 37, 37);
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+/*Section Styles*/
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.colored-section {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.black-section {
+    background-color: rgb(37, 37, 37);
+}
+
+
+#title {
+
+    padding: 0 0 5% 0;
+    text-align: left;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+/* Navigation & Title Area */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    border-radius: 10%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+@media (max-width: 1080px) {
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Features */
+
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #7e72ef;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #674cff;
+}
+
+/* Quotes */
+
+#testimonials {
+    position: relative;
+    z-index: 1;
+
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* team */
+
+#team {
+    padding: 100px;
+}
+
+.team-column {
+    padding: 3% 2%;
+}
+
+.team-text {
+    color: rgb(37, 37, 37);
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.card-description {
+    color: rgb(37, 37, 37);
+}
+
+/* Footer */
+
+.social-icon {
+    margin: 20px 10px;
+}
