@@ -45,8 +45,16 @@ p {
     animation: gradient 15s ease infinite;
 }
 
+.coloredLin-section {
+    background: linear-gradient(#e73c7e,#ee7752,#23a6d5,#23d5ab);
+    background-size: 400% 400%;
+}
+
 .black-section {
     background-color: rgb(37, 37, 37);
+}
+.pink-section{
+    background-color: #e73c7e;
 }
 
 
@@ -166,7 +174,7 @@ p {
 }
 
 .team-text {
-    color: #e73c7e; 
+    color: rgb(37, 37, 37);
     font-size: 3rem;
     line-height: 1.5;
 }
