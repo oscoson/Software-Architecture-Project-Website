@@ -169,18 +169,33 @@ p {
     padding: 100px;
 }
 
+.card {
+    border-color: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 5%;
+    background: linear-gradient(rgb(0, 0, 0), #e73c7e);
+}   
+
 .team-column {
     padding: 3% 2%;
 }
 
+.teams-img {
+    padding-top: 5%;
+    width: 40%; 
+    margin: auto;
+}
+
 .team-text {
-    color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     line-height: 1.5;
 }
 
+
 .card-description {
-    color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
 }
 
 /* Footer */
