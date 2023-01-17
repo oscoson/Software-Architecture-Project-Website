@@ -19,9 +19,10 @@ p {
 /*Headings & Titles*/
 
 .big-heading {
-    color: rgb(37, 37, 37);
+    color: white;
     font-size: 3rem;
     line-height: 1.5;
+    text-shadow: 2px 4px 8px rgba(0,0,0,0.59);
 }
 
 .section-heading {
@@ -84,7 +85,7 @@ p {
 /* Navigation & Title Area */
 
 .navbar {
-    padding: 0 0 4.5rem;
+    padding: 0 0 5rem;
 }
 
 .navbar-brand {
@@ -93,7 +94,7 @@ p {
 }
 
 .nav-item {
-    padding: 0 18px;
+    padding: 0px 20px 0px 0px;
 }
 
 .nav-link {
