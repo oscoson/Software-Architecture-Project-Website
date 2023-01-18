@@ -104,6 +104,7 @@ p {
 
 .download-button {
     margin: 5% 3% 5% 0;
+    border-radius: 40px;
 }
 
 .title-image {
