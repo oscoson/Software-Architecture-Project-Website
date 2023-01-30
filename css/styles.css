@@ -16,6 +16,11 @@ p {
     color: #e7e7e7;
 }
 
+.mini-img {
+    width: 10%;
+    padding: 1%;
+}
+
 /*Headings & Titles*/
 
 .big-heading {
@@ -23,6 +28,7 @@ p {
     font-size: 3rem;
     line-height: 1.5;
     text-shadow: 2px 4px 8px rgba(0,0,0,0.59);
+    padding-bottom: 1%;
 }
 
 .section-heading {
@@ -103,20 +109,22 @@ p {
 }
 
 .download-button {
-    margin: 5% 3% 5% 0;
+    margin: 1% 1% 5% 0;
     border-radius: 40px;
 }
 
+.title-info {
+    padding: 10% 0 0 4%;
+}
 .title-image {
-    border-radius: 10%;
-    width: 100%;
+    padding: 0 0 0 45%;
     z-index: 0;
     position: absolute;
 
 }
 
 #title .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 3% 15% 3%;
 }
 
 @media (max-width: 1080px) {
@@ -130,11 +138,11 @@ p {
     }
 }
 
-/* Features */
+/* Descriptions */
 
 
-.feature-box {
-    padding: 4.5%;
+.description-box {
+    padding: 1%;
 }
 
 .icon {
