@@ -154,21 +154,20 @@ p {
     color: #674cff;
 }
 
-/* Quotes */
+/* Work */
 
-#testimonials {
+#work {
     position: relative;
     z-index: 1;
 
 }
 
-.testimonials-img {
+.work-img {
     width: 10%;
-    border-radius: 100%;
     margin: 20px;
 }
 
-.testimonial-text {
+.work-text {
     font-size: 3rem;
     line-height: 1.5;
 }
